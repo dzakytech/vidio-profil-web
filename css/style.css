@@ -98,4 +98,24 @@ main {
 .purple-text {
   color: #8a2be2; /* Warna ungu yang Anda inginkan */
   font-size: 1.5rem; /* Sesuaikan ukuran font jika perlu */
+
+}
+
+/* ... (kode CSS Anda yang sudah ada) ... */
+
+/* Menambahkan aturan ini untuk membuat video responsif */
+.video-container {
+  position: relative;
+  width: 70%;
+  padding-bottom: 39.375%; /* Rasio aspek 16:9 (9 / 16 * 70%) */
+  height: 0;
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
